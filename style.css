@@ -1,0 +1,125 @@
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+}
+
+body{
+    height: 500px;
+
+}
+
+.nav-item{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-item:hover{
+    border-bottom: #F25287 1px solid;
+    
+}
+
+#main{
+    margin-top: 100px;
+    
+}
+.main-h:hover{
+    border-bottom: #903749 1px solid;
+}
+
+.img-fluid{
+    margin-left: 0;
+    height: 550px;
+    width: 450px;
+}
+#educ{
+    margin-top: 100px;
+}
+
+.t-ed:hover{
+    color:#FB3640;
+}
+
+.s-ed:hover{
+    color: #FF5200;
+}
+.p-ed:hover{
+    color: #FFCC29;
+}
+.edu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 85px;
+}
+.education{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.edu:hover{
+    color: #7868E6;
+}
+.educ-icon:hover{
+    color: #f21170;
+}
+.bio{
+    border: #FB3640 2px solid;
+    
+}
+.img-img{
+    margin-left: 50px;
+    height: 500px;
+    width: 500px;
+}
+.text{
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text:hover{
+    color: #FB3640;
+}
+.form-label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    color: #FB3640;
+}
+.img-g{
+    margin-left: 20px;
+}
+img{
+    max-width: 90%;
+}
+.gallery{
+    padding: 80px 0;
+    
+}
+.gallery-item{
+    background-color: white;
+    padding: 15px;
+    width: 90%;
+    box-shadow: 0 0 20px ;
+    margin-top: 100px;
+}
+
+footer{
+    background-color: black;
+    padding: 5px;
+}
+
+footer p{
+    margin: 0;
+    color: white;
+    padding-left: 7px;
+}
+.footcon{
+    color: white;
+    padding-left: 7px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hob{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-h{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

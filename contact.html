@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Site</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+ 
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+<body style="background-color:#f2edd7;">
+    
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        
+        <div class="container">
+            
+        <a href="index.html"
+            class="navbar-brand mb-0 h1" >
+
+            <img class="d-inline-block align-top"
+            src="ks-removebg-preview.png" width="70" height="50"> MY SITE 
+
+        </a>
+        <button 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav"
+        class="navbar-toggler"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="toggle navigation"
+        >
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active dropdown">
+                    <a href="bio.html" class="nav-link active dropdown-toggle"
+                    id="navbarDropdown" role="button" 
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"> 
+                        BIO
+                    </a>
+                    <ul class="dropdown-menu"
+                    aria-labelledby="navbarDropdown">
+                    <li>
+                        <a href="life.html" class="dropdown-item">LIFE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="educ.html" class="dropdown-item">EDUCATION
+                        </a>
+                    </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item active">
+                    <a href="gallery.html" class="nav-link">
+                        GALLERY
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a href="contact.html" class="nav-link">
+                        CONTACT
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="contact">
+        <div class="container">
+            <div class="text">
+                <h2 class="text-center mb-5 shadow-sm p-3">Contact Us</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 shadow rounded p-5" style="margin-bottom: 20px;">
+                    <div class="row">
+                   <form>
+                        <div class="col-mb-3">
+                            <label class="form-label">First Name</label>
+                            <input type="text" class="form-control" placeholder="First Name" id="fname">
+                        </div>
+                        <div class="col-mb-3">
+                            <label class="form-label">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Last Name" id="lname">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email:</label>
+                            <input type="email" class="form-control" required placeholder="name@emal.com" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea cols="40" class="form-control" placeholder="Write your message here" rows="3"> </textarea>
+                        </div>
+                        <div class="mb-3">
+                            <input class="btn btn-light" type="submit" value="Submit">
+                            </div>
+                        </form>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-5 img-col">
+                        <img src="message.png" class="img-g">
+            </div>
+                </div>
+  
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <a href="https://www.facebook.com/" class="footcon">
+                <i class="fab fa-facebook-f fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/" class="footcon">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>    
+            <a href="https://www.instagram.com" class="footcon">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a> 
+            <a href="https://mail.google.com/" class="footcon">
+                <i class="far fa-envelope fa-2x"></i>
+            </a> 
+            <p>© 2021 Kristine Soroten</p>
+        </div>
+    </footer>
+</body>
+</html>
